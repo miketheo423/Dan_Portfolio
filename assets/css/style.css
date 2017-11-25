@@ -719,14 +719,15 @@ ul.work li.active {
 }
 
 .work .item {
-    margin-top: 30px;
-    position: relative;
-    overflow: hidden;
+    /*margin-top: 30px;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    display: none;
 }
 
-.work .item img {
+/*.work .item img {
     width: 100%;
-}
+}*/
 
 .portfolio-caption {
     position: absolute;
