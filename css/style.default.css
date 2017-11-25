@@ -402,12 +402,12 @@ WORKS / REFERENCES
   }
 }
 .reference-item {
-  width: 255px;
+  width: 300px;
   overflow: hidden;
 }
 @media (max-width: 1199px) {
   .reference-item {
-    width: 205px;
+    width: 300px;
   }
 }
 @media (max-width: 991px) {
