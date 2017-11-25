@@ -12,9 +12,11 @@ CUSTOM CHANGES
   margin-top: 3.5em;
 }
 
-iframe {
-  width: 55em;
-  height: 40em;
+@media (min-width: 1200px) {
+  iframe {
+    width: 55em;
+    height: 40em;
+  }
 }
 
 #detail-content {
@@ -33,10 +35,6 @@ iframe {
 
 /* Cell phone media query */
 @media (min-width: 319px) and (max-width: 420px) {
-  iframe {
-    width: 22em;
-    height: 12em;
-  }
   #detail-content h1,
   #detail-content p {
     position: relative;
@@ -49,10 +47,6 @@ iframe {
 
 /* Ipad Media Query */
 @media (min-width: 765px) and (max-width: 1023px ) {
-  iframe {
-    width: 38em;
-    height: 25em;
-  }
   #detail-content h1,
   #detail-content p {
     position: relative;
