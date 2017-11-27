@@ -4,18 +4,30 @@ CUSTOM CHANGES
 =====================
 */
 
+#insta-link {
+  font-size: 1.5em;
+}
+
 .text-left {
   text-align: left;
 }
 
-#dan-photo {
+/*#dan-photo {
   margin-top: 3.5em;
+}*/
+
+#references-masonry {
+
 }
 
 @media (min-width: 1200px) {
   iframe {
     width: 55em;
     height: 40em;
+  }
+  #dan-reel {
+    width: 60em;
+    height: 45em;
   }
 }
 
@@ -35,8 +47,7 @@ CUSTOM CHANGES
 
 /* Cell phone media query */
 @media (min-width: 319px) and (max-width: 420px) {
-  #detail-content h1,
-  #detail-content p {
+  #detail-content h1{
     position: relative;
     top: 30px;
   }
@@ -45,12 +56,32 @@ CUSTOM CHANGES
   }
 }
 
+@media (min-width: 319px) and (max-width: 359px) {
+  html, body {
+     width: 361px;
+  } 
+}
+
 /* Ipad Media Query */
 @media (min-width: 765px) and (max-width: 1023px ) {
-  #detail-content h1,
-  #detail-content p {
+  #detail-content h1{
     position: relative;
     top: 6px;
+  }
+  #dan-reel {
+    width: 40em;
+    height: 25em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px ) {
+  #detail-content h1{
+    position: relative;
+    top: 6px;
+  }
+  #dan-reel {
+    width: 40em;
+    height: 25em;
   }
 }
 /*
@@ -393,7 +424,7 @@ WORKS / REFERENCES
   text-decoration: none;
 }
 #references-masonry {
-  margin: 0 15px;
+  margin: 0 auto;
   visibility: hidden;
 }
 @media (max-width: 991px) {
@@ -483,7 +514,7 @@ WORKS / REFERENCES
 #detail .close {
   position: relative;
   font-size: 50px;
-  z-index: 100;
+  z-index: 1000;
 }
 #detail .buttons {
   text-align: center;
@@ -495,7 +526,7 @@ WORKS / REFERENCES
 #detail h1 {
   color: #FFCB2F;
   display: inline-block;
-  font-size: 40px;
+  font-size: 29px;
   font-weight: 100;
   padding: 10px 0;
   margin: 22px 0;
