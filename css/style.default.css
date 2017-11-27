@@ -16,10 +16,6 @@ CUSTOM CHANGES
   margin-top: 3.5em;
 }*/
 
-#references-masonry {
-
-}
-
 @media (min-width: 1200px) {
   iframe {
     width: 55em;
@@ -28,6 +24,9 @@ CUSTOM CHANGES
   #dan-reel {
     width: 60em;
     height: 45em;
+  }
+  #about-column {
+    margin-left: 6em;
   }
 }
 
