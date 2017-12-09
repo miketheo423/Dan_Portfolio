@@ -1,7 +1,7 @@
 <?php 
 	$errors = '';
 	$limit_size=10000000;
-	$myemail = 'miketheocodes@gmail.com'; /*Replace with your email*/
+	$myemail = 'cangelosifilm@gmail.com'; /*Replace with your email*/
 	if(empty($_POST['name'])  ||
 	   empty($_POST['email']) ||
 	   empty($_POST['message']))
@@ -13,7 +13,7 @@
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];
-	$headers = "From: $email";
+	$headers = "From: noreply@cangelosifilm.com";
 
 	if (!eregi(
 	"^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", 
